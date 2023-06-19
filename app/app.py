@@ -2,9 +2,6 @@ import os
 import random
 import sys
 from flask import Flask, render_template
-import openai
-
-
 
 app = Flask(__name__)
 app.template_folder = './'  # Set the template folder to the current directory
